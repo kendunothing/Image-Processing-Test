@@ -1,0 +1,24 @@
+{
+  "name": "image-processing-service",
+  "version": "1.0.0",
+  "description": "Backend service for uploading, transforming, and caching images.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.540.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "mongoose": "^8.2.3",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.33.3",
+    "swagger-ui-express": "^5.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
