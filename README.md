@@ -69,3 +69,6 @@ npm run dev
 2. Tải một bức ảnh gốc từ máy tính lên.
 3. Nhập các thông số muốn tinh chỉnh (Ví dụ: `Width: 800`, `Rotate: 90`, Format: `WebP`).
 4. Bấm **Biến đổi ảnh** và xem kết quả ngay bên dưới, kèm link tải về.
+
+## 🥂 I also do this sh*t on my phone btw 🤌
+![i1](img/i9.jpg)
