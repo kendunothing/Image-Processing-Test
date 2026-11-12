@@ -42,7 +42,14 @@ npm run dev
 ```
 *   Server API chạy tại: `http://localhost:3000`
 *   Giao diện test API (Swagger): `http://localhost:3000/api-docs`
+*   À quên! Nhớ tạo tài khoản, setup cluster MongoDB các kiểu. Sau đó tạo file .env trong folder ~/backend và thêm/chỉnh sửa phần dưới này vào nha :))
+```
+PORT=3000
+BASE_URL=http://localhost:3000
 
+# MONGODB_URI connection
+MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.5ehqehi.mongodb.net/image_service
+```
 ### 2. Khởi chạy Frontend (Client)
 
 Mở một cửa sổ Terminal **mới**, giữ nguyên Backend đang chạy:
