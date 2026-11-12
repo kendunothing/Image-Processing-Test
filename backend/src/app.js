@@ -14,7 +14,12 @@ const { transformRateLimiter } = require('./middlewares/rateLimiter');
 const { validateTransformInput } = require('./middlewares/validate');
 const swaggerDocument = require('./config/swagger');
 
+const cors = require('cors');
+
 const app = express();
+app.use(express.json());
+
+app.use(cors()); // Cho phép Frontend gọi API
 app.use(express.json());
 
 // Phục vụ file tĩnh nếu chạy ở chế độ lưu ổ cứng (Local)
